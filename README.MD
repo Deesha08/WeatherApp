@@ -17,7 +17,7 @@
 2. npm install
 3. npm start
 
-### Backend App:
+#### Backend App:
 1. cd weather-server
 2. npm install
 3. Add Acccess key , Secret key & Region for AWS DynamoDB in .env file in /weather-server as follows.
@@ -26,7 +26,10 @@ AWS_SECRET_ACCESS_KEY = "Your secret Key"
 AWS_REGION = "Region where dynamoDb is created"
 4. npm start
 
-
+### Technology Stack:
+1. FrontEnd - HTML, CSS & React
+2. Backend - NodeJS, Express
+3. Database - AWS DynamoDB
 ### DynamoDB table:
 
 ![](screenshots/DynamoDB.png)
