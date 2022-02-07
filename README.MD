@@ -37,7 +37,7 @@ AWS_REGION = "Region where dynamoDb is created"
 ![](screenshots/Clear.png)
 
 #### Snowy weather
-![](screenshots/Clear.png)
+![](screenshots/Snow.png)
 
 #### Mist, Smoke, Haze
 ![](screenshots/Misc.png)
