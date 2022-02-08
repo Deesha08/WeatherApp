@@ -1,0 +1,64 @@
+.top {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weatherDesc {
+    text-align: center;
+    position: relative;
+    bottom: 14%;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
+  
+  .subDesciption {
+    font-size: 1rem;
+  
+  }
+  
+   .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+  
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+
+  .temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .currentIcon{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    animation: glide 2s ease-in-out alternate infinite;
+  }
+
+  @keyframes glide  {
+    from {
+       left:0px;
+       top:0px;
+    }
+    
+    to {
+       left:0px;
+       top:12px;
+    }
+ 
+ }

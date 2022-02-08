@@ -1,0 +1,6 @@
+.errorDisplay {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-size: 2rem;
+}
