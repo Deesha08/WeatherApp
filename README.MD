@@ -34,7 +34,7 @@ AWS_REGION = "Region where dynamoDb is created"
 ### Deployed on Kubernetes:
 Build a docker image for front-end & back-end, and deployed on the Kubernetes cluster.
 
-http://34.66.150.125:3000/
+http://deesha.strangled.net/ or http://34.66.150.125:3000/
 
 
 ### DynamoDB table:
