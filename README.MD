@@ -17,7 +17,7 @@
 2. npm install
 3. npm start
 
-### Backend App:
+#### Backend App:
 1. cd weather-server
 2. npm install
 3. Add Acccess key , Secret key & Region for AWS DynamoDB in .env file in /weather-server as follows.
@@ -25,6 +25,16 @@ AWS_ACCESS_KEY_ID = "Your Access key"
 AWS_SECRET_ACCESS_KEY = "Your secret Key"
 AWS_REGION = "Region where dynamoDb is created"
 4. npm start
+
+### Technology Stack:
+1. FrontEnd - HTML, CSS & React
+2. Backend - NodeJS, Express
+3. Database - AWS DynamoDB
+
+### Deployed on Kubernetes:
+Build a docker image for front-end & back-end, and deployed on the Kubernetes cluster.
+
+http://deesha.strangled.net/ or http://34.66.150.125:3000/
 
 
 ### DynamoDB table:
@@ -37,7 +47,7 @@ AWS_REGION = "Region where dynamoDb is created"
 ![](screenshots/Clear.png)
 
 #### Snowy weather
-![](screenshots/Clear.png)
+![](screenshots/Snow.png)
 
 #### Mist, Smoke, Haze
 ![](screenshots/Misc.png)
