@@ -30,6 +30,13 @@ AWS_REGION = "Region where dynamoDb is created"
 1. FrontEnd - HTML, CSS & React
 2. Backend - NodeJS, Express
 3. Database - AWS DynamoDB
+
+### Deployed on Kubernetes:
+Build a docker image for front-end & back-end, and deployed on the Kubernetes cluster.
+
+http://34.66.150.125:3000/
+
+
 ### DynamoDB table:
 
 ![](screenshots/DynamoDB.png)
