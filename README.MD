@@ -40,6 +40,8 @@ http://deesha.strangled.net/ or http://34.66.150.125:3000/
 
 http://34.134.226.198:5000/doc
 
+![](screenshots/Swagger.png)
+
 ### DynamoDB table:
 
 ![](screenshots/DynamoDB.png)
