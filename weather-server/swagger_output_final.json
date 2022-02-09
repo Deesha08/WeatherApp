@@ -1,0 +1,66 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/weather/detailsByCity": {
+      "get": {
+        "description": "get weather by city",
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "type": "string",
+            "description":"The city that you wish to see the weather for"
+          },
+          {
+            "name": "units",
+            "in": "query",
+            "type": "string",
+            "description":"Unit of response: Imperial | Standard"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/weather/detailsByLocation": {
+      "get": {
+        "description":  "get weather by latitude and longtitude",
+        "parameters": [
+          {
+            "name": "lat",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "lon",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "units",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
