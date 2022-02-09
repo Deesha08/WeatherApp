@@ -36,6 +36,9 @@ Build a docker image for front-end & back-end, and deployed on the Kubernetes cl
 
 http://deesha.strangled.net/ or http://34.66.150.125:3000/
 
+### Integrated Swagger for API documentation
+
+http://34.134.226.198:5000/doc
 
 ### DynamoDB table:
 
